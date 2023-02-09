@@ -1,0 +1,172 @@
+.ligne1{
+    display: flex;
+    font-size: 20px; 
+    border-collapse: separate;
+    box-sizing: content-box;
+    margin: 10px 10px;
+}
+.Booki{
+    overflow: hidden;
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+ }
+.Hebergements {
+    position: absolute;
+    left: 70%;
+    right: 34.12%;
+    top: 0%;
+    bottom: 0%;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    
+    /* Blue */
+    color: #0065FC;    
+}
+.Activités {
+    position: absolute;
+left: 83.46%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Nav/Standard */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+}
+.trouvezdesvacancespourdeshebergementsdereve {
+font-size: bold;
+position: absolute;
+width: 575px;
+height: 26px;
+left: 55px;
+top: 126px;
+
+/* Title/Section */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+color: #000000;
+}
+.enpleincentrevilleouenpleinenature {
+    font-style:oblique;
+    position: absolute;
+width: 296px;
+height: 19px;
+left: 55px;
+top: 160px;
+
+/* Footer/Link */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+}
+input {
+    position: absolute;
+    width: 200px;
+    height: 49px;
+    left: 200px;
+    top: 200px;
+    
+    /* White */
+    background: #FFFFFF;
+    /* Grey */
+    border: 1px solid ;
+    border-radius: 10px;
+}
+
+button {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 15px 16px;
+gap: 10px;
+
+position: absolute;
+width: 132px;
+height: 49px;
+left: 341px;
+top: 200px;
+size: 18px;
+
+    color: ivory;
+    background-color: #0065FC;
+    border: 1px solid #0065FC;
+border-radius: 0px 15px 15px 0px;
+}
+.conteneur {
+    width: 880px;
+    height: 626px;
+    border-radius: 20px;
+    display: grid;
+    position :absolute;
+    grid-template-areas: "one two three";
+    left: 10%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    grid-template-columns: 250px 250px 250px;
+    background-color: gainsboro;
+    grid-gap: 20px;
+    align-content: space-around;
+    }
+    .conteneur2 {
+        display: grid;
+        grid-template-areas: "one";
+        align-items: baseline;
+        background-color: #FFFFFF;
+        width: 246px;
+        height: 199px;
+        border-radius: 20px;
+    }
+    .conteneur3 {
+        display:grid ;
+        width: 420px;
+        height: 625px;
+        border-radius: 20px;
+        background-color: gainsboro;
+    }
+    .conteneur4 {}
+.box {
+    height: 150px;
+    border-radius: 10px;
+}
+.Aubergelacannebiere {
+
+width: 204px;
+height: 15px;
+left: 16px;
+top: calc(50% - 15px/2 + 36px);
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
